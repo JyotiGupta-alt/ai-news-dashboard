@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Dashboard - Stay Updated with AI Powered News</title>
+    <meta name="description" content="Get real-time news from multiple sources in a modern AI-powered dashboard interface.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body data-page="home">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🤖</span>
+                <span>AI News</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="latest.html" class="nav-link">Latest</a></li>
+                <li><a href="categories.html" class="nav-link">Categories</a></li>
+                <li><a href="search.html" class="nav-link">Search</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" aria-label="Toggle theme">
+                        <span class="sun">☀️</span>
+                        <span class="moon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Stay Updated with AI Powered News</h1>
+            <p class="hero-subtitle">Get real-time news from multiple sources in a modern, elegant interface. Experience the future of news consumption.</p>
+            <div class="hero-buttons">
+                <a href="latest.html" class="btn btn-primary">
+                    <span>Explore News</span>
+                    <span>📰</span>
+                </a>
+                <a href="about.html" class="btn btn-secondary">
+                    <span>Learn More</span>
+                    <span>ℹ️</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending News Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">🔥 Trending News</h2>
+            <p class="section-subtitle">Stay informed with the latest headlines</p>
+        </div>
+        <div class="news-grid" id="trending-news">
+            <!-- News cards will be dynamically inserted here -->
+        </div>
+        <div class="load-more-container">
+            <a href="latest.html" class="btn btn-primary">View All News</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">📂 Browse Categories</h2>
+            <p class="section-subtitle">Explore news by topic</p>
+        </div>
+        <div class="category-grid">
+            <div class="category-card" data-category="technology">
+                <div class="category-icon">💻</div>
+                <h3 class="category-name">Technology</h3>
+            </div>
+            <div class="category-card" data-category="business">
+                <div class="category-icon">💼</div>
+                <h3 class="category-name">Business</h3>
+            </div>
+            <div class="category-card" data-category="health">
+                <div class="category-icon">🏥</div>
+                <h3 class="category-name">Health</h3>
+            </div>
+            <div class="category-card" data-category="sports">
+                <div class="category-icon">⚽</div>
+                <h3 class="category-name">Sports</h3>
+            </div>
+            <div class="category-card" data-category="entertainment">
+                <div class="category-icon">🎬</div>
+                <h3 class="category-name">Entertainment</h3>
+            </div>
+            <div class="category-card" data-category="science">
+                <div class="category-icon">🔬</div>
+                <h3 class="category-name">Science</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>🤖 AI News</h3>
+                <p style="color: var(--text-muted); margin-top: 1rem;">
+                    Your trusted source for real-time news, powered by artificial intelligence and the best news APIs.
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="latest.html">Latest News</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="search.html">Search</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Pages</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+                    <a href="#" class="social-link" aria-label="GitHub">🐙</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2026 AI News Dashboard. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
