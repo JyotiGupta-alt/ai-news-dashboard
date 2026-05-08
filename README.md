@@ -1,6 +1,16 @@
 # 🤖 AI News Dashboard
 
 A modern, responsive news dashboard website built with HTML, CSS, and Vanilla JavaScript. It uses the NewsAPI to fetch real-time news and displays it in a beautiful glassmorphism design.
+<img width="1899" height="871" alt="image" src="https://github.com/user-attachments/assets/1197d0e6-e5ba-41e6-94b7-1eb2bb5eb73e" />
+<img width="1901" height="864" alt="image" src="https://github.com/user-attachments/assets/f11cd227-28aa-4497-82ce-7a5900266ea2" />
+<img width="1901" height="875" alt="image" src="https://github.com/user-attachments/assets/897c0a2d-761d-4b12-8c3b-db7b69d21337" />
+<img width="1897" height="858" alt="image" src="https://github.com/user-attachments/assets/d98e3256-c48d-47fb-b205-1a44097521de" />
+<img width="1897" height="863" alt="image" src="https://github.com/user-attachments/assets/21bdcada-f277-41e9-aec3-276d1eba1df9" />
+
+
+
+
+
 
 ## ✨ Features
 
